@@ -197,7 +197,7 @@ a{
     width: 100%;
     margin-bottom: 10px;
     border: 1px solid orange;
-
+    text-align: center;
 }
 
 .progress-bar {
@@ -266,4 +266,44 @@ a{
 }
 .color-5{
     background-color: darkred;
+}
+.progress-wrap5{
+    position: absolute;
+    border: 1px solid;
+    height: 300px;
+    justify-content: center;
+    width: 300px;
+    margin-left:25%;
+    border-radius: 10%;
+    margin-top: 20%;
+}
+.color-6{
+    background-color: navy;
+}
+.progress-wrap6{
+    position: absolute;
+    border: 1px solid;
+    height: 300px;
+    justify-content: center;
+    width: 300px;
+    margin-left:50%;
+    border-radius: 10%;
+    margin-top: 20%;
+}
+.color-7{
+    background-color: cadetblue;
+}
+.progress-wrap7{
+
+    position: absolute;
+    border: 1px solid;
+    height: 300px;
+    justify-content: center;
+    width: 300px;
+    margin-left:75%;
+    border-radius: 10%;
+    margin-top: 20%;
+}
+.color-8{
+    background-color: olive;
 }
