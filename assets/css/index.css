@@ -1,0 +1,107 @@
+html{
+    box-sizing: border-box;
+}
+*{
+
+    box-sizing:inherit
+}
+
+ol,ul{
+    list-style-type: none;
+}
+div{
+    display: block;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.header{
+    border: 1px solid blue;
+    display: block;
+    position:relative;
+    height: 100px;
+}
+.nav{
+    position: absolute;
+    border:1px solid red;
+    height :100%;
+    width :50%;
+    justify-content: center;
+    text-align: center;
+}
+.nav-right{
+    display: block;
+    border: 5px solid;
+    position: absolute;
+    margin-left: 50%;
+    height: 100%;
+    width: 50%;
+}
+.nav-right>ul{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.nav-right>ul>li{
+    margin-left: 30px;
+}
+.main{
+    border: 1px solid orange;
+    height:800px;
+}
+.section-1{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    border: 1px solid blue;
+    width: 100%;
+    height: 450px;
+}
+.profile{
+    /* border: 5px solid red; */
+    display: flex;
+    border: 5px solid orange;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.profile-left{
+    width: 50%;
+    border: 1px solid red;
+    justify-content: center;
+}
+.profile-left>img{
+    margin: auto;
+    width: 50%;
+    height: 100%;
+}
+.profile-rifgt{
+    justify-content: center;
+    text-align: left;
+    border: 5px solid;
+    width: 80%;
+    position: relative;
+}
+.profile-rifgt>h1{
+    margin-left: 50%;
+    color: aquamarine;
+    font-size: xx-large;
+}
+.introduce{
+    border: 1px solid;
+    height: 40%;
+}
+.introduce>p{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+.slogon{
+    border: 1px solid;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
