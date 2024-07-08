@@ -30,9 +30,28 @@ a{
     z-index: 1000; /* 다른 요소들 위에 위치하도록 설정 */
     background-color: #fff; /* 헤더 배경색 설정 */
     width: 100%;
-    border-radius: 20%;
+    
     /* position: fixed; */
 }
+
+.typing-animation {
+    font-family: 'Courier New', Courier, monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
+
 .nav{
     position: absolute;
     border:1px solid;
