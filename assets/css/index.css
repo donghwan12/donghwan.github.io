@@ -33,7 +33,7 @@ a{
     
     /* position: fixed; */
 }
-
+/* 
 .typing-animation {
     font-family: 'Courier New', Courier, monospace;
     white-space: nowrap;
@@ -50,7 +50,7 @@ a{
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: orange }
-}
+} */
 
 .nav{
     position: absolute;
