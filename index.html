@@ -6,6 +6,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="" href="assets/js//main.js">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +27,7 @@
 </head>
 <body>
     <div class=wrapper>
-        <header class="header">
+        <header class="header" id="header">
             <nav class="nav">
                 <h1 class=".dongle-regular"><a href="#">LeeDongHwan</a></h1>
             </nav>
@@ -49,24 +50,25 @@
 
                     <div class="profile-rifgt">
                         <h1 class=".dongle-regular">AboutMe</h1>
-                        <div class="introduce">
-                            <p>안녕하세요</p>
+                        <div class="introduce" id="one">
+                            <p id="hello">안녕하세요.</p>
                             <p>신입개발자</p>
                             <p>이동환입니다.</p>
                         </div>
 
                         <div class="slogon">
-                            <p>"최악의상황에서 최선을다하자" ->제가 가장 좋아하는 말이자 제 슬로건입니다</p>
-                            <p>모든상황이 최선의 상황일순없습니다 그저 주어진 상황에서 최선을다하는게 가장 중요하다고 생각합니다</p>
-                            <p>공부를 하고 나서 거기서 그치지 않고 관련된 기술을 적용해 개발을 해보거나 필요한 프로그램을 개발 하는 것을 좋아합니다.</p>   
-                            <p>현재 신입 백엔드 개발자로 구직중입니다.</p>
+                            <p id="slogon2">"최악의상황에서 최선을다하자"<p>
+                            <p>제가 가장 좋아하는 말이자 제 슬로건입니다<br>
+                            모든상황이 최선의 상황일순없습니다 그저 주어진 상황에서 최선을다하는게 가장 중요하다고 생각합니다<br>
+                            공부를 하고 나서 거기서 그치지 않고 관련된 기술을 적용해 개발을 해보거나 필요한 프로그램을 개발 하는 것을 좋아합니다. <br>
+                           현재 신입 개발자로 구직중입니다.</p>
                         </div>
                     </div>    
                 </div>
-                <hr>
+              
                 <div class="Experience">
                     <h2>저는 이런일을 했습니다.</h2>
-                    <hr>
+    
                     <div class="logo">
                         <img src="assets/images/img.png" alt="ㅎㅇ">
                     </div>
@@ -84,13 +86,11 @@
                     </div>
                 </div> 
             </section>
-            <section class="section-2">
-                <div class="skills">
-                    <span>
-                        <h2>이런것들을 배웠습니다.</h2>
-                    </span>
+            <section class="section-2" id="two">
+                <div class="skills">                   
+                        <h2>저는 이런것들을 배웠습니다.</h2>
                     <hr>
-                    <h2>SKILLS</h2>
+                    <h3>SKILLS</h3>
                     <hr>
                     <p>개발 입문 언어를 JAVA으로 시작하여 언어 사용에 감을 익혔습니다.
                         <br> 이후 개발에 입문하려 임베디드 풀스텝 웹개발 양성과정을 들으며 웹 개발에 대한 기초를 학습하였습니다.
@@ -98,12 +98,14 @@
                         <br> 간단한 웹서비스는 혼자서 개발할 수 있으며, Rest API 를 이용한 Web Server를 구현할 수 있습니다.더 나은 웹개발자가 되기위해 Java를 이용해 TDD 개발방법을 사이드 프로젝트에서 훈련하고
                          Spring 프레임워크에 대한 깊은 공부를 이어가고 있습니다.
                     </p>
+                    <hr>
                     <div class="progress-wraps">
                         <div class="progress-wrap">
         
                             <h3>
                                 <strong>JAVA</strong>
                             </h3>
+                            <hr>
                             <div class="progress">
                                 <div class="progress-bar color-1" role="progressbar" aria-valuemax="60" aria-valuenow="0" aria-valuemax="100" style="width:60%">
                                     <span>60%</span>
@@ -118,6 +120,7 @@
                             <h3>
                                 <strong>SPRING</strong>
                             </h3>
+                            <hr>
                             <div class="progress">
                                 <div class="progress-bar color-2" role="progressbar" aria-valuemax="65" aria-valuenow="0" aria-valuemax="100" style="width:65%">
                                     <span>65%</span>
@@ -133,6 +136,7 @@
                             <h3>
                                 <strong>HTML</strong>
                             </h3>
+                            <hr>
                             <div class="progress">
                                 <div class="progress-bar color-3" role="progressbar" aria-valuemax="50" aria-valuenow="0" aria-valuemax="100" style="width:50%">
                                     <span>50%</span>
@@ -148,6 +152,7 @@
                             <h3>
                                 <strong>CSS</strong>
                             </h3>
+                            <hr>
                             <div class="progress">
                                 <div class="progress-bar color-4" role="progressbar" aria-valuemax="50" aria-valuenow="0" aria-valuemax="100" style="width:40%">
                                     <span>40%</span>
@@ -163,6 +168,7 @@
                             <h3>
                                 <strong>JavaScript</strong>
                             </h3>
+                            <hr>
                             <div class="progress">
                                 <div class="progress-bar color-5" role="progressbar" aria-valuemax="50" aria-valuenow="0" aria-valuemax="100" style="width:35%">
                                     <span>35%</span>
@@ -178,6 +184,7 @@
                             <h3>
                                 <strong>GitHub</strong>
                             </h3>
+                            <hr>
                             <div class="progress">
                                 <div class="progress-bar color-6" role="progressbar" aria-valuemax="50" aria-valuenow="0" aria-valuemax="100" style="width:45%">
                                     <span>45%</span>
@@ -193,6 +200,7 @@
                             <h3>
                                 <strong>MySqL</strong>
                             </h3>
+                            <hr>
                             <div class="progress">
                                 <div class="progress-bar color-7" role="progressbar" aria-valuemax="50" aria-valuenow="0" aria-valuemax="100" style="width:55%">
                                     <span>55%</span>
@@ -200,21 +208,6 @@
                                 MySQL의 기본 쿼리문을 활용하여 데이터베이스와 대화할 수 있습니다. 
                                 <br>대부분의 프로젝트에서 MySQL을 사용해봤고
                                 <br>
-                            </div>
-                        </div>
-
-                        <div class="progress-wrap7">
-                            <h3>
-                                <strong>MySqL</strong>
-                            </h3>
-                            <div class="progress">
-                                <div class="progress-bar color-8" role="progressbar" aria-valuemax="50" aria-valuenow="0" aria-valuemax="100" style="width:55%">
-                                    <span>55%</span>
-                                </div>
-                                GitHub를 활용해서 프로젝트를 관리하고 
-                                <br>커밋을 세분화하는 훈련을 했습니다.
-                                <br> GitHub를 사용해서
-                                <br> 알고리즘 문제를 풀이한 내용도 저장하고 있습니다.
                             </div>
                         </div>
 
@@ -251,9 +244,10 @@
                     <div class="study-3">
                         <h5>학점은행제,컴퓨터공학과 학위취득</h5>
                         <p>2022.1~2024.9</p>
-                            <div class="study-it1">
+                            <div class="study-it2">
                                 <p>
-                                    컴퓨터공학과 학사학위취득을위해 국가평생교육친흥원에서 학위취득을위해 공부했습니다.<br>
+                                    컴퓨터공학과 학사학위취득을위해 국가평생교육친흥원에서 학위취득을위해
+                                    <br> 공부했습니다.<br>
                                     학위취득에 필요한 정보처리산업기사 등등 필요한 자격증도 취득을했습니다.<br>
                                      
                                 </p>
@@ -261,7 +255,7 @@
                     </div> 
                 </div>
             </section>
-            <section class="section-3">
+            <section class="section-3" id="three">
                 <div class="Portfolio">
                     <h2>Portfolio</h2>
                 </div>
@@ -300,7 +294,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-4">
+            <section class="section-4" id="four">
                 <div class="connect">
                     <h2>Connect Me</h2>
                 </div>
