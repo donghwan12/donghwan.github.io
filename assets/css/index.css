@@ -48,7 +48,7 @@ a{
 }
 
 @keyframes blink-caret {
-    from, to { border-color: transparent }
+    from, to { border-color: trans6parent }
     50% { border-color: orange }
 } */
 
