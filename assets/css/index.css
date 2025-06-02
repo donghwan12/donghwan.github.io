@@ -41,24 +41,8 @@ a{
   /* 이미지·텍스트 크기 조정 등 필요에 따라 추가 */
 }
 
-/* 
-.typing-animation {
-    font-family: 'Courier New', Courier, monospace;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: .15em solid orange;
-    animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
-}
 
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
 
-@keyframes blink-caret {
-    from, to { border-color: trans6parent }
-    50% { border-color: orange }
-} */
 .wrapper{
     /* 기존 .wrapper 대신 이렇게 */
 
@@ -166,10 +150,11 @@ a{
     background: radial-gradient(#ff32b1,#faf082);
 }
 .slogon>p{
-    font-weight: 600;
+    font-weight: 700;
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
     /* background: linear-gradient(deepSkyBlue,blue,Violet); */
+    margin-bottom: 10px;
 }
 #slogon2{
     font-size: x-large;
@@ -408,10 +393,10 @@ a{
     border-radius: 10px;
 }
 .study-it{
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 67%;
-    border-top:  3px solid gray;
+    height: 65%;
+    border-top:  6px solid gray;
     /* background-color: mediumturquoise; */
     background: linear-gradient(0deg, yellow, lightGreen);
 }
@@ -436,16 +421,16 @@ a{
 .study-it1{
     position: absolute;
     width: 100%;
-    height: 67%;
-    border-top: 3px solid gray;
+    height: 65%;
+    border-top: 5px solid gray;
     background: linear-gradient(45deg, Violet, Orange);
     
 }
 .study-it2{
-    border-top: 3px solid gray;
+    border-top: 5px solid gray;
     position: absolute;
     width: 100%;
-    height: 67%;
+    height: 65%;
     background: linear-gradient(lightCyan, skyBlue, deepSkyBlue);
 }
 .study-it1>p{
